@@ -140,7 +140,7 @@ export const Contact = () => {
                             </FormItem>
                         )}
                         />
-                    <Button type="submit" size="lg">
+                    <Button type="submit" size="lg" className="cursor-pointer">
                         Send Message
                     </Button>
                 </form>

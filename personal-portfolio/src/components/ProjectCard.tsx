@@ -8,7 +8,7 @@ export const ProjectCard = ({ imgSrc, projectLink, tags, title,}: ProjectType) =
         variants={fadeUp}
         className="relative"
         >
-            <figure className="overeflow-hidden rounded-md">
+            <figure className="overflow-hidden rounded-md">
                 <img src={imgSrc} alt={title} className="rounded-md transition duration-500 hover:scale-115 w-full"/>
             </figure>
 

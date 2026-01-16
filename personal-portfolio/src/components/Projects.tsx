@@ -4,6 +4,7 @@ import { projectsData } from "@/constants";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ProjectCard } from "@/components/ProjectCard";
 
+
 export const Projects = () => {
     return (
         <motion.section
@@ -15,7 +16,7 @@ export const Projects = () => {
             id='projects'
             >
             <SectionHeader subtitle='Projects' title='My Featured Projects'/>
-            <motion.div className="grid md:gridc-cols-2 gap-10 mt-10" initial='hidden' whileInView='visible' viewport={{ once: true, amount: 0.3 }} variants={staggerContainer(0.5)}>
+            <motion.div className="grid md:grid-cols-2 gap-10 mt-10" initial='hidden' whileInView='visible' viewport={{ once: true, amount: 0.3 }} variants={staggerContainer(0.5)}>
                 {projectsData.map((project, i) => (
                     <ProjectCard key={i} imgSrc={project.imgSrc} projectLink={project.projectLink} tags={project.tags} title={project.title}/>
                 ))}

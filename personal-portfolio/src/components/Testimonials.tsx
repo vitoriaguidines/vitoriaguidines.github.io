@@ -60,10 +60,10 @@ export const Testimonials = () => {
                 </AnimatePresence>
 
                 <div className="flex gap-4 mt-8 ">
-                    <button onClick={prev} className="size-10 flex items-center justify-center rounded-full border border-neutral-700 hover:bg-neutral-800 transition">
+                    <button onClick={prev} className="size-10 flex items-center justify-center rounded-full border border-neutral-700 hover:bg-neutral-800 transition cursor-pointer">
                         <ChevronLeftIcon size={18} />
                     </button>
-                    <button onClick={next} className="size-10 flex items-center justify-center rounded-full border border-neutral-700 hover:bg-neutral-800 transition">
+                    <button onClick={next} className="size-10 flex items-center justify-center rounded-full border border-neutral-700 hover:bg-neutral-800 transition cursor-pointer">
                         <ChevronRightIcon size={18} />
                     </button>
                 </div>

@@ -30,7 +30,7 @@ export const Hero = () => {
                     <a href="#projects">My Projects</a>
                 </Button>
 
-                <Button variant='outline'>Download CV</Button>
+                <Button className="cursor-pointer" variant='outline'>Download CV</Button>
             </motion.div>
         </motion.section>
     );
