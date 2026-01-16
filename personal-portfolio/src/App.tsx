@@ -3,7 +3,6 @@
  * @license Apache-2.0
  */
 
-import { Button } from "@/components/ui/button";
 import { useEffect } from "react";
 import { Hero } from "@/components/Hero";
 import { Stats } from "@/components/Stats";
