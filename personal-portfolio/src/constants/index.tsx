@@ -116,48 +116,54 @@ const projectsData: ProjectType[] = [
 
 const education: ExperienceType[] = [
   {
-    year: '2018 – 2020',
-    title: 'Bachelor of Computer Science',
-    institute: 'National University of Technology',
-    desc: 'Focused on front-end development, UI design, and web application architecture.',
+    year: '2021',
+    title: 'CS50: Introdution to Computer Science',
+    institute: 'Harvard Online Education',
+    desc: 'Focused on introducing basic programming languages and algorithm logic for beginners',
   },
   {
-    year: '2021 – 2022',
-    title: 'Frontend Development Bootcamp',
+    year: '2022 - Present',
+    title: 'Bacharelor of Computer Science',
+    institute: 'Federal Fluminense University (UFF)',
+    desc: 'Building my computer science foundation with a strong focus on scientific and technical learning.',
+  },
+  {
+    year: '2025',
+    title: 'DevSecOps Fundamentals',
     institute: 'Udemy / Online Course',
-    desc: 'Learned modern JavaScript, React, and responsive UI patterns through real-world projects.',
-  },
-  {
-    year: '2023',
-    title: 'Advanced UI/UX Design Course',
-    institute: 'Design+Code',
-    desc: 'Explored advanced design systems, motion design, and accessibility best practices.',
+    desc: 'Explored DevSecOps fundamentals, including CI/CD pipelines, package structures, Docker, and secure development practices.',
   },
 ];
 
 const experience: ExperienceType[] = [
   {
-    year: '2021 – 2022',
-    title: 'Frontend Developer Intern',
-    institute: 'PixelForge Studio',
-    desc: 'Built and optimized responsive websites, collaborating closely with designers and backend teams.',
+    year: '2023 – 2024',
+    title: 'Web Developer Intern',
+    institute: 'Kya Engeneering',
+    desc: 'Developed a SCADA supervisory web application using Django, integrating a Python-based API with a SQL database and modern development tools.',
   },
   {
-    year: '2022 – Present',
-    title: 'UI Engineer',
-    institute: 'Freelance / Remote Work',
-    desc: 'Designed and developed web interfaces for SaaS startups using React, Tailwind, and Figma.',
+    year: '2024 – 2025',
+    title: 'Red Team - Ethical Hacker Intern',
+    institute: 'Globo',
+    desc: 'Worked with ethical hacking, penetration testing, security monitoring, and enterprise security tools in real-world environments.',
+  },
+  {
+    year: '2025 – Present',
+    title: 'DevSecOps Intern',
+    institute: 'Globo',
+    desc: 'Collaborated with development teams to integrate security into CI/CD pipelines, running SAST and DAST tools, performing threat modeling, and improving repository security.',
   },
 ];
 
 const tools: ToolsType[] = [
   {
-    label: 'Figma',
-    imgSrc: '/images/tools/figma.svg',
+    label: 'Python',
+    imgSrc: '/images/tools/python.svg',
   },
   {
-    label: 'CSS',
-    imgSrc: '/images/tools/css3.svg',
+    label: 'Kali Linux',
+    imgSrc: '/images/tools/kali.svg',
   },
   {
     label: 'Tailwind CSS',
@@ -168,20 +174,20 @@ const tools: ToolsType[] = [
     imgSrc: '/images/tools/react.svg',
   },
   {
-    label: 'JavaScript',
+    label: 'Javascript',
     imgSrc: '/images/tools/javascript.svg',
   },
   {
-    label: 'Node.js',
-    imgSrc: '/images/tools/nodejs.svg',
+    label: 'Docker',
+    imgSrc: '/images/tools/docker.svg',
   },
   {
-    label: 'Express.js',
-    imgSrc: '/images/tools/expressjs.svg',
+    label: 'GCP',
+    imgSrc: '/images/tools/gcp.svg',
   },
   {
-    label: 'Mongodb',
-    imgSrc: '/images/tools/mongodb.svg',
+    label: 'MySQL',
+    imgSrc: '/images/tools/mysql.svg',
   },
 ];
 
@@ -235,24 +241,24 @@ const statsData: StatsType[] = [
 
 const testimonials: TestimonialsType[] = [
   {
-    name: 'Alex Tomato',
-    role: 'Brand Manager at Instant Design',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg',
-    text: 'Working with David was an absolute pleasure. His attention to detail, creative insights, and ability to translate complex ideas into stunning visuals truly set him apart. He consistently went above and beyond to ensure the project exceeded expectations.',
+    name: 'Media and Gaming',
+    role: 'I was highly inspired by Mecha Robots and Cyberpunk Media',
+    image: '/images/pictures/eva.jpg',
+    text: 'My interest in technology was first sparked by robotics in media and games. From mecha stories like Evangelion and Gundam to cyberpunk works such as Akira and Ghost in the Shell, as well as films like The Matrix and Blade Runner, these influences shaped how I see technology — not just as tools, but as complex systems where machines, humans, and society intersect.',
     link: '#',
   },
   {
-    name: 'Sara Bloom',
-    role: 'Founder at Bloom Agency',
-    image: 'https://randomuser.me/api/portraits/women/65.jpg',
-    text: 'David brought my brand vision to life better than I could have imagined. He is not only professional and highly skilled but also incredibly responsive and collaborative. Every aspect of the project was handled with precision and creativity.',
+    name: 'Cybersec and Hardware',
+    role: 'Why did I engaged with this topic',
+    image: '/images/pictures/hack.jpg',
+    text: 'My journey into cybersecurity began with a fascination for hardware and internal logic—deconstructing devices to understand how they work from the inside out. This curiosity evolved into a focus on how systems communicate and where they are vulnerable, driving my commitment to identifying risks and strengthening digital defenses.',
     link: '#',
   },
   {
-    name: 'John Park',
-    role: 'CEO at PixelFlow',
-    image: 'https://randomuser.me/api/portraits/men/45.jpg',
-    text: 'From UI/UX design to front-end implementation, David handled every detail flawlessly. His problem-solving skills, innovative approach, and dedication made the entire process smooth and enjoyable. I would highly recommend him for any design-driven project.',
+    name: "What's Next?",
+    role: 'What are my future goals?',
+    image: '/images/pictures/tech.jpg',
+    text: 'Moving forward, my goal is to dive deeper into the ever-evolving tech landscape by staying at the forefront of emerging innovations and industry trends. I am eager to connect with inspiring minds and tackle diverse challenges that push my boundaries, allowing me to continuously refine my expertise and evolve as a professional.',
     link: '#',
   },
 ];
