@@ -13,12 +13,12 @@ export const Hero = () => {
             className="pt-20"
             id='hero'
             >
-            <motion.p variants={fadeUp} className="flex intems-center justify-center py-1 gap-2 border border-neural-600 rounded-sm w-32">
+            <motion.p variants={fadeUp} className="flex items-center justify-center py-1 gap-2 border border-neutral-600 rounded-sm w-32">
                 <SparkleIcon size={15} /> <span>Introduction</span>
             </motion.p>
             <motion.h1
             variants={fadeUp}
-            className="text-4xl md:text-5xl lg:text-6xl font-semibold capitalize mt-2 wax-w-3xl md:leading-16"
+            className="text-4xl md:text-5xl lg:text-6xl font-semibold capitalize mt-2 max-w-3xl md:leading-16"
             >
                 I'm <span className="text-primary">Vitória Guidine</span>, Computer Science student at Fluminense Federal University (UFF)
             </motion.h1>
@@ -30,7 +30,15 @@ export const Hero = () => {
                     <a href="#projects">My Projects</a>
                 </Button>
 
-                <Button className="cursor-pointer" variant='outline'>Download CV</Button>
+                <Button className="cursor-pointer" variant='outline' asChild>
+                <a 
+                href="/vitoria-guidine-cv.pdf" 
+                download="vitoria-guidine-cv.pdf" 
+                rel="noopener noreferrer"
+                >
+                    Download CV
+                </a>
+            </Button>
             </motion.div>
         </motion.section>
     );

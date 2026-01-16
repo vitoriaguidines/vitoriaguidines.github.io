@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { fadeUp } from "@/lib/animations";
-import { ChevronLeftIcon, ChevronRightIcon, SparkleIcon, StarIcon } from "lucide-react";
-import { testimonials } from "@/constants";
+import { ChevronLeftIcon, ChevronRightIcon, SparkleIcon } from "lucide-react";
+import { curiosities } from "@/constants";
 
-export const Testimonials = () => {
+export const Curiosities = () => {
     const [curSlide, setCurSlide] = useState(0);
-    const next = () => setCurSlide((prev) => (prev + 1) % testimonials.length)
-    const prev = () => setCurSlide((prev) => (prev - 1 + testimonials.length) % testimonials.length)
+    const next = () => setCurSlide((prev) => (prev + 1) % curiosities.length)
+    const prev = () => setCurSlide((prev) => (prev - 1 + curiosities.length) % curiosities.length)
 
     return (
         <motion.section
@@ -16,7 +16,7 @@ export const Testimonials = () => {
                     viewport={{ once: true, amount: 0.8}}
                     variants={fadeUp}
                     className="mt-20 scroll-mt-10"
-                    id='testmonials'
+                    id='curiosities'
                     >
                         <p className="flex items-center justify-center py-1 gap-2 border border-neutral-600 rounded-sm w-32">
                 <SparkleIcon size={15} /> Curiosities
@@ -36,8 +36,8 @@ export const Testimonials = () => {
                     layout
                     className="border rounded-3xl border-neutral-800 bg-neutral-900/10 p-8 flex flex-col md:flex-row items-start gap-6"
                     >
-                        <img src={testimonials[curSlide].image}
-                        alt={testimonials[curSlide].name}
+                        <img src={curiosities[curSlide].image}
+                        alt={curiosities[curSlide].name}
                         className="size-40 border rounded-2xl object-cover"
                         >
 
@@ -45,15 +45,15 @@ export const Testimonials = () => {
                         <div className="flex-1 space-y-4">
                             <div>
                                 <h3 className="text-lg font-semibold text-white">
-                                    {testimonials[curSlide].name}
+                                    {curiosities[curSlide].name}
                                 </h3>
 
                                 <p className="text-sm text-neutral-400">
-                                    {testimonials[curSlide].role}
+                                    {curiosities[curSlide].role}
                                 </p>
                             </div>
                             <p className="text-neutral-300 leading-relaxed">
-                                {testimonials[curSlide].text}
+                                {curiosities[curSlide].text}
                             </p>
                         </div>
                     </motion.div>

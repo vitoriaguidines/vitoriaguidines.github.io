@@ -29,7 +29,9 @@ export const Profile = () => {
                         )
                     })}
                 </div>
-                <Button className="mt-2" size='lg'>Let's Work!</Button>
+                <Button className="mt-2 cursor-pointer" size='lg' asChild>
+                    <a href="#contact">Let's Work!</a>
+                </Button>
             </div>
         </aside>
     )

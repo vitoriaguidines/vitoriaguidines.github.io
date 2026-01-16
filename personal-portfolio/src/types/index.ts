@@ -36,7 +36,7 @@ export type StatsType = {
   label: string;
 };
 
-export type TestimonialsType = {
+export type CuriositiesType = {
   name: string;
   role: string;
   image: string;

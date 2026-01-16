@@ -11,7 +11,7 @@ import { Projects } from "@/components/Projects";
 import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { Resume } from "@/components/Resume";
-import { Testimonials } from "@/components/Testimonials";
+import { Curiosities } from "@/components/Curiosities";
 import { Contact } from "@/components/Contact";
 import Lenis from 'lenis';
 
@@ -34,7 +34,7 @@ export const App = () => {
     <About />
     <Services />
     <Resume />
-    <Testimonials />
+    <Curiosities />
     <Contact />
   </main>
 }

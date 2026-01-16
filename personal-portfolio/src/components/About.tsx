@@ -26,7 +26,9 @@ export const About = () => {
                 variants={fadeUp}
                 transition={{delay: 0.2}}
                 >
-                    <Button className="mt-5 cursor-pointer">Contact Me</Button>
+                    <Button className="mt-5 cursor-pointer" asChild>
+                        <a href="#contact">Contact Me</a>
+                    </Button>
                 </motion.div>
         </motion.section>
     );

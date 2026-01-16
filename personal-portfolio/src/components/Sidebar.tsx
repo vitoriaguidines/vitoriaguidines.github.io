@@ -23,7 +23,7 @@ export const Sidebar = () => {
                 </Button>
             </SheetTrigger>
 
-            <SheetContent side='right' className="w-84 bg-neutral-900 text-white py-6 pl-10">
+            <SheetContent side='right' className="w-84 bg-neutral-900 text-white py-6 pl-10 [&>button]:cursor-pointer">
                 <SheetTitle className="text-lg font-semibold">Menu</SheetTitle>
                 <nav className="flex flex-col gap-4">
                     {navLinks.map((link) => {

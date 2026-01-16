@@ -12,7 +12,7 @@ import type {
   ProjectType,
   ServiceType,
   StatsType,
-  TestimonialsType,
+  CuriositiesType,
   ToolsType,
 } from '@/types';
 
@@ -21,14 +21,18 @@ import type {
  */
 import {
   Bot,
+  Box,
   Briefcase,
+  Coffee,
   Facebook,
   FileText,
+  Github,
   Globe,
   Home,
   Instagram,
   Layers,
   Lightbulb,
+  Linkedin,
   Mail,
   MessageCircle,
   Palette,
@@ -57,60 +61,60 @@ const navLinks: LinksType[] = [
   },
   { label: 'Resume', link: '#resume', icon: FileText },
   {
-    label: 'Reviews',
-    link: '#testimonials',
-    icon: MessageCircle,
+    label: 'Curiosities',
+    link: '#curiosities',
+    icon: Coffee,
   },
   { label: 'Contact', link: '#contact', icon: Mail },
 ];
 
 const socialLinks: LinksType[] = [
   {
-    icon: Facebook,
-    label: 'Facebook',
-    link: '/#',
+    icon: Linkedin,
+    label: 'Linkedin',
+    link: 'https://www.linkedin.com/in/vit%C3%B3ria-guidine/',
+  },
+  {
+    icon: Github,
+    label: 'GitHub',
+    link: 'https://github.com/vitoriaguidines',
   },
   {
     icon: Instagram,
     label: 'Instagram',
-    link: '/#',
+    link: '/https://www.instagram.com/badideame/',
   },
   {
-    icon: Twitter,
-    label: 'Twitter',
-    link: '/#',
-  },
-  {
-    icon: Youtube,
-    label: 'Youtube',
-    link: '/#',
+    icon: Box,
+    label: 'HackTheBox',
+    link: 'https://app.hackthebox.com/shori',
   },
 ];
 
 const projectsData: ProjectType[] = [
   {
-    imgSrc: '/images/project-ph-1.jpeg',
-    title: 'Full stack music app',
+    imgSrc: '/images/project-ph-1.jpg',
+    title: 'Full stack Letterboxd inspired App',
     tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    projectLink: 'https://github.com/vitoriaguidines/letterboxd-react',
   },
   {
-    imgSrc: '/images/project-ph-2.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    imgSrc: '/images/project-ph-2.png',
+    title: 'Subdomain list checker',
+    tags: ['Domain', 'Security'],
+    projectLink: 'https://github.com/vitoriaguidines/domain-check',
   },
   {
-    imgSrc: '/images/project-ph-3.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    imgSrc: '/images/project-ph-3.png',
+    title: 'Mobile University drive App',
+    tags: ['API', 'Mobile'],
+    projectLink: 'https://github.com/vitoriaguidines/app-de-carona',
   },
   {
-    imgSrc: '/images/project-ph-4.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    imgSrc: '/images/project-ph-4.png',
+    title: 'Platform Game using PyGame',
+    tags: ['Python', 'Game Desgin'],
+    projectLink: 'https://rbarroso.itch.io/neodroid',
   },
 ];
 
@@ -234,12 +238,12 @@ const statsData: StatsType[] = [
     label: 'Years Of Experience',
   },
   {
-    number: '27+',
+    number: '30+',
     label: 'Projects Done',
   },
 ];
 
-const testimonials: TestimonialsType[] = [
+const curiosities: CuriositiesType[] = [
   {
     name: 'Media and Gaming',
     role: 'I was highly inspired by Mecha Robots and Cyberpunk Media',
@@ -272,5 +276,5 @@ export {
   services,
   navLinks,
   statsData,
-  testimonials,
+  curiosities,
 };
