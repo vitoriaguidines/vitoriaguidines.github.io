@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          working-directory: ./personal-portfolio/package-lock.json
 
       - name: Install dependencies
         run: npm install
